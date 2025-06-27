@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+body{
+  font-size:1.6rem;
+}
+html{
+  font-size:62.5%;
+}
+
 :root{
   box-sizing: border-box;
 }
@@ -31,4 +38,5 @@ form{
   width: 80%;
   margin: 2rem;
   text-align: center;
+  height: 80vh;
 }
