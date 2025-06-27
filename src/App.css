@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  box-sizing: border-box;
+}
+
+.header{
+  text-transform: capitalize;
+  height: 15vh;
+  text-align: center;
+  margin-top: 1rem;
+
+}
+.startbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.results{
+  width: 80%;
+  margin: 2rem;
+  text-align: center;
+}
