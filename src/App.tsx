@@ -56,7 +56,7 @@ function reducerFunction(state: GameStateType, action: ActionType) {
       return {
         ...state,
         guess: action.payload,
-        disableBtn: false,
+        disableBtn: true,
         error: true
         
       };
